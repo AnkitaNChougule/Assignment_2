@@ -21,24 +21,36 @@ h1{
     flex-wrap: wrap; 
 }
 .table{
-    font-size: 18px;
+    font-size: 17px;
     border-collapse: collapse;
     background-color: #ADEFD1FF;
     overflow-y: hidden;
-    color: #00203FFF;
-    
-   
+    color: #000123;
+    width: 750px;
+    height: 500px;
 }
 table, td, th {
     border: 2px solid black;
-    padding: 11px;
+    padding: 7px;
   }
+
+a{
+    color: #000123;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+ /*========== code for display user data */
 
 .right_container {
     overflow-y: auto;
     height: 500px;
     width: 500px;
-    background-color:#00203FFF;
+    background-color:#0063B2FF;
     color: #ADEFD1FF;
     border-radius: 10px;
 }
@@ -85,11 +97,9 @@ img{
     background-color: #ADEFD1FF;
     padding: 10px;
 }
-.emp{
-    margin-left: 30px;
-}
+
 .body_row:hover{
-    background-color: #00203FFF;
+    background-color: #0063B2FF;
     color: aliceblue;
     cursor: pointer;
 }
@@ -100,5 +110,19 @@ h4{
     width: 380px;
     padding: 7px;
     background-color:#ADEFD1FF;
-    color: #00203FFF;
+    color: #0063B2FF;
 }
+/* ===========code for action column========== */
+.delete_row:hover{
+    background-color: crimson;
+    color: aliceblue;
+}
+.trash:hover{
+    color: black;
+}
+.trash{
+    color: red;
+    font-size: 17px;
+    padding-right: 5px;
+}
+
