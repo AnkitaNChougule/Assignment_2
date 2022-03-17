@@ -16,7 +16,7 @@ fetch('https://run.mocky.io/v3/010e898c-a05c-4a0a-b947-2a65b5a267c5')
               <td>` +data[i].username +`</td>
               <td>` +data[i].employment.title +`</td>
              <td>` +data[i].address.country +`</td>
-             <td class='delete_row'> <span class='fa fa-trash trash'></span>Delete</td>
+             <td class='delete_row'> <span class='fa fa-trash trash'></span></td>
            </tr> `;
        
      }
