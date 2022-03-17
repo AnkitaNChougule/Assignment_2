@@ -5,7 +5,9 @@
          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
          <link rel="stylesheet" href="./style.css" />
+         
          <script src="./myscript.js"></script>
      
          <title>Javascript Assignment 1</title>
@@ -15,7 +17,7 @@
         <div class="container">
             
             <div class="left_container">
-                <table class="table" >
+                <table class="table" id="table" >
                     <thead>
                     <tr>
                         <th>First Name</th>
@@ -23,6 +25,7 @@
                         <th>Username  </th>
                         <th>Employment Title</th>
                         <th>Country</th>
+                        <th>Action</th>
                     </tr>
                    </thead>
                     <tbody id="tbody">
@@ -32,8 +35,8 @@
             </div>
             <!-- end of left container i.e table -->
 
-            <div class="right_container" >
-                <div class="fixed">
+            <div class="right_container" id="right">
+                <div >
                     <h1>Good<span id="greet"></span></h1>
                     <div><center><img id="avatar"></center></div>
                 </div>
@@ -61,6 +64,10 @@
 
                     <h4>Gender :
                         <span id="gen"> </span>
+                    </h4>
+
+                    <h4>Age :
+                        <span id="age"> </span>
                     </h4>
 
                     <h4>Phone :
